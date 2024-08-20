@@ -22,14 +22,7 @@
                   response_type: 'token',
                   redirect_uri: 'https://oauth.yandex.ru/suggest/token'
                },
-               'https://oauth.yandex.ru', {
-                  view: 'button',
-                  parentId: 'container',
-                  buttonView: 'main',
-                  buttonTheme: 'light',
-                  buttonSize: 'm',
-                  buttonBorderRadius: 0
-               }
+               'https://oauth.yandex.ru'
             )
             .then(function(result) {
                return result.handler()
